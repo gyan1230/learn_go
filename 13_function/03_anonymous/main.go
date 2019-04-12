@@ -10,12 +10,19 @@ func main() {
 	fmt.Printf("type is %T\n", welcome)
 
 	//error in return from anonymous function
-	/*
-		rcv := func2() string{
-			s:= "gyan"
-			return s
-		}
 
-		fmt.Println(rcv())
-	*/
+	rcv := func() string {
+		s := "gyan"
+		return s
+	}
+
+	fmt.Println(rcv())
+
+	increment := func(x int) int {
+		x++
+		return x
+	}
+	fmt.Println(increment(5))
+	fmt.Println(increment(25))
+
 }
