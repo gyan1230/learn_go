@@ -11,7 +11,7 @@ const (
 )
 
 func main() {
-	fmt.Printf("%b - %d\n", kB, kB)
-	fmt.Printf("%b - %d\n", mB, mB)
-	fmt.Printf("%b - %d\n", gB, gB)
+	fmt.Printf("%b - KB is :%d bytes\n", kB, kB)
+	fmt.Printf("%b - MB is :%d bytes\n", mB, mB)
+	fmt.Printf("%b - GB is :%d bytes\n", gB, gB)
 }
